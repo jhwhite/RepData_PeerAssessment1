@@ -1,3 +1,10 @@
+---
+title: "PA1template.Rmd"
+author: "James White"
+date: "July 19, 2014"
+output: html_document
+---
+
 # Reproducible Research: Peer Assessment 1
 
 
