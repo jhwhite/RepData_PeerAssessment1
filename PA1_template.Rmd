@@ -1,11 +1,9 @@
 ---
-title: "PA1_template.Rmd"
+title: "Reproducible Research: Peer Assessment 1"
 author: "James White"
 date: "July 19, 2014"
 output: html_document
 ---
-
-# Reproducible Research: Peer Assessment 1
 
 ## Loading and preprocessing the data
 ```{r message=FALSE, warning=FALSE}
