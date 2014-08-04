@@ -5,6 +5,11 @@ date: "July 19, 2014"
 output: html_document
 ---
 
+###Set the working directory
+```{r}
+setwd("/Users/jwhite/Copy/JHUdatascience/5 Reproducible Research/CourseProject1/RepData_PeerAssessment1")
+```
+
 ## Loading and preprocessing the data
 ```{r message=FALSE, warning=FALSE}
 library(ggplot2)
@@ -117,5 +122,5 @@ title(main="Weekdays")
 ```
 
 ```{r echo=FALSE}
-knit2html()
+knit2html("PA1_template.Rmd")
 ```
