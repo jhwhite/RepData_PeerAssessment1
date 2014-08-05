@@ -5,6 +5,11 @@ date: "July 19, 2014"
 output: html_document
 ---
 
+
+```r
+setwd("/Users/jwhite/Copy/JHUdatascience/5 Reproducible Research/CourseProject1/RepData_PeerAssessment1")
+```
+
 ## Loading and preprocessing the data
 
 ```r
@@ -39,7 +44,7 @@ steps_hist <- ggplot(steps_taken, aes(x=steps.taken))
 steps_hist + geom_histogram()
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
 
 Calculates mean
 
@@ -67,7 +72,7 @@ avg.daily.activity <- aggregate(.~interval, FUN=mean, data=data)
 plot(avg.daily.activity$interval, avg.daily.activity$steps, type="l")
 ```
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
 
 Get the interval that has the highest amount of steps
 
@@ -122,7 +127,7 @@ steps_imputed <- ggplot(steps_taken_imputed, aes(x=steps.taken.imputed))
 steps_imputed + geom_histogram()
 ```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9.png) 
+![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10.png) 
 
 
 ```r
@@ -161,7 +166,7 @@ plot(activity.imputed.weekday.avg$interval, activity.imputed.weekday.avg$steps, 
 title(main="Weekdays")
 ```
 
-![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11.png) 
+![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12.png) 
 
 
 ```r
@@ -175,20 +180,25 @@ knit2html("PA1_template.Rmd")
 ```
 
 ```
-##   |                                                                         |                                                                 |   0%  |                                                                         |...                                                              |   4%
+##   |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   4%
 ##   ordinary text without R code
 ## 
 ##   |                                                                         |.....                                                            |   8%
-## label: unnamed-chunk-13 (with options) 
-## List of 2
-##  $ message: logi FALSE
-##  $ warning: logi FALSE
-## 
+## label: unnamed-chunk-14
 ##   |                                                                         |........                                                         |  12%
 ##   ordinary text without R code
 ## 
-##   |                                                                         |...........                                                      |  17%
-## label: unnamed-chunk-14 (with options) 
+##   |                                                                         |..........                                                       |  15%
+## label: unnamed-chunk-15 (with options) 
+## List of 2
+##  $ message: logi FALSE
+##  $ warning: logi FALSE
+## 
+##   |                                                                         |............                                                     |  19%
+##   ordinary text without R code
+## 
+##   |                                                                         |...............                                                  |  23%
+## label: unnamed-chunk-16 (with options) 
 ## List of 2
 ##  $ message: logi FALSE
 ##  $ warning: logi FALSE
@@ -199,44 +209,44 @@ knit2html("PA1_template.Rmd")
 ```
 
 ```
-##   |                                                                         |..............                                                   |  21%
+##   |                                                                         |..................                                               |  27%
 ##   ordinary text without R code
 ## 
-##   |                                                                         |................                                                 |  25%
-## label: unnamed-chunk-15
-##   |                                                                         |...................                                              |  29%
-##   ordinary text without R code
-## 
-##   |                                                                         |......................                                           |  33%
-## label: unnamed-chunk-16
-##   |                                                                         |........................                                         |  38%
-##   ordinary text without R code
-## 
-##   |                                                                         |...........................                                      |  42%
+##   |                                                                         |....................                                             |  31%
 ## label: unnamed-chunk-17
+##   |                                                                         |......................                                           |  35%
+##   ordinary text without R code
+## 
+##   |                                                                         |.........................                                        |  38%
+## label: unnamed-chunk-18
+##   |                                                                         |............................                                     |  42%
+##   ordinary text without R code
+## 
+##   |                                                                         |..............................                                   |  46%
+## label: unnamed-chunk-19
 ```
 
 ```
-##   |                                                                         |..............................                                   |  46%
-##   ordinary text without R code
-## 
 ##   |                                                                         |................................                                 |  50%
-## label: unnamed-chunk-18
+##   ordinary text without R code
+## 
 ##   |                                                                         |...................................                              |  54%
-##   ordinary text without R code
-## 
-##   |                                                                         |......................................                           |  58%
-## label: unnamed-chunk-19
-##   |                                                                         |.........................................                        |  62%
-##   ordinary text without R code
-## 
-##   |                                                                         |...........................................                      |  67%
 ## label: unnamed-chunk-20
-##   |                                                                         |..............................................                   |  71%
+##   |                                                                         |......................................                           |  58%
 ##   ordinary text without R code
 ## 
-##   |                                                                         |.................................................                |  75%
-## label: unnamed-chunk-21 (with options) 
+##   |                                                                         |........................................                         |  62%
+## label: unnamed-chunk-21
+##   |                                                                         |..........................................                       |  65%
+##   ordinary text without R code
+## 
+##   |                                                                         |.............................................                    |  69%
+## label: unnamed-chunk-22
+##   |                                                                         |................................................                 |  73%
+##   ordinary text without R code
+## 
+##   |                                                                         |..................................................               |  77%
+## label: unnamed-chunk-23 (with options) 
 ## List of 2
 ##  $ message: logi FALSE
 ##  $ warning: logi FALSE
@@ -247,16 +257,16 @@ knit2html("PA1_template.Rmd")
 ```
 
 ```
-##   |                                                                         |...................................................              |  79%
+##   |                                                                         |....................................................             |  81%
 ##   ordinary text without R code
 ## 
-##   |                                                                         |......................................................           |  83%
-## label: unnamed-chunk-22
-##   |                                                                         |.........................................................        |  88%
+##   |                                                                         |.......................................................          |  85%
+## label: unnamed-chunk-24
+##   |                                                                         |..........................................................       |  88%
 ##   ordinary text without R code
 ## 
 ##   |                                                                         |............................................................     |  92%
-## label: unnamed-chunk-23
+## label: unnamed-chunk-25
 ```
 
 ```
@@ -264,11 +274,11 @@ knit2html("PA1_template.Rmd")
 ##   ordinary text without R code
 ## 
 ##   |                                                                         |.................................................................| 100%
-## label: unnamed-chunk-24
+## label: unnamed-chunk-26
 ```
 
 ```
 ## output file: PA1_template.md
 ```
 
-![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12.png) 
+![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13.png) 

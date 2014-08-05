@@ -120,6 +120,6 @@ plot(activity.imputed.weekday.avg$interval, activity.imputed.weekday.avg$steps, 
 title(main="Weekdays")
 ```
 
-```{r}
+```{r message =FALSE, warning=FALSE}
 knit2html("PA1_template.Rmd")
 ```
