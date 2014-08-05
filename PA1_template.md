@@ -1,5 +1,5 @@
 ---
-title: "Reproducible Research: Peer Assessment 1"
+title: 'Reproducible Research: Peer Assessment 1'
 author: "James White"
 date: "July 19, 2014"
 output: html_document
@@ -167,103 +167,3 @@ title(main="Weekdays")
 ```
 
 ![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12.png) 
-
-
-```r
-knit2html("PA1_template.Rmd")
-```
-
-```
-##   |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   4%
-##   ordinary text without R code
-## 
-##   |                                                                         |.....                                                            |   8%
-## label: unnamed-chunk-14
-##   |                                                                         |........                                                         |  12%
-##   ordinary text without R code
-## 
-##   |                                                                         |..........                                                       |  15%
-## label: unnamed-chunk-15 (with options) 
-## List of 2
-##  $ message: logi FALSE
-##  $ warning: logi FALSE
-## 
-##   |                                                                         |............                                                     |  19%
-##   ordinary text without R code
-## 
-##   |                                                                         |...............                                                  |  23%
-## label: unnamed-chunk-16 (with options) 
-## List of 2
-##  $ message: logi FALSE
-##  $ warning: logi FALSE
-```
-
-```
-##   |                                                                         |..................                                               |  27%
-##   ordinary text without R code
-## 
-##   |                                                                         |....................                                             |  31%
-## label: unnamed-chunk-17
-##   |                                                                         |......................                                           |  35%
-##   ordinary text without R code
-## 
-##   |                                                                         |.........................                                        |  38%
-## label: unnamed-chunk-18
-##   |                                                                         |............................                                     |  42%
-##   ordinary text without R code
-## 
-##   |                                                                         |..............................                                   |  46%
-## label: unnamed-chunk-19
-```
-
-```
-##   |                                                                         |................................                                 |  50%
-##   ordinary text without R code
-## 
-##   |                                                                         |...................................                              |  54%
-## label: unnamed-chunk-20
-##   |                                                                         |......................................                           |  58%
-##   ordinary text without R code
-## 
-##   |                                                                         |........................................                         |  62%
-## label: unnamed-chunk-21
-##   |                                                                         |..........................................                       |  65%
-##   ordinary text without R code
-## 
-##   |                                                                         |.............................................                    |  69%
-## label: unnamed-chunk-22
-##   |                                                                         |................................................                 |  73%
-##   ordinary text without R code
-## 
-##   |                                                                         |..................................................               |  77%
-## label: unnamed-chunk-23 (with options) 
-## List of 2
-##  $ message: logi FALSE
-##  $ warning: logi FALSE
-```
-
-```
-##   |                                                                         |....................................................             |  81%
-##   ordinary text without R code
-## 
-##   |                                                                         |.......................................................          |  85%
-## label: unnamed-chunk-24
-##   |                                                                         |..........................................................       |  88%
-##   ordinary text without R code
-## 
-##   |                                                                         |............................................................     |  92%
-## label: unnamed-chunk-25
-```
-
-```
-##   |                                                                         |..............................................................   |  96%
-##   ordinary text without R code
-## 
-##   |                                                                         |.................................................................| 100%
-## label: unnamed-chunk-26 (with options) 
-## List of 2
-##  $ message: logi FALSE
-##  $ warning: logi FALSE
-```
-
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13.png) 
