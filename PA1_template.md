@@ -171,12 +171,6 @@ title(main="Weekdays")
 
 
 ```
-## 
-## 
-## processing file: PA1_template.Rmd
-```
-
-```
 ##   |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   4%
 ##   ordinary text without R code
 ## 
@@ -199,10 +193,6 @@ title(main="Weekdays")
 ## List of 2
 ##  $ message: logi FALSE
 ##  $ warning: logi FALSE
-```
-
-```
-## stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to adjust this.
 ```
 
 ```
@@ -250,10 +240,6 @@ title(main="Weekdays")
 ```
 
 ```
-## stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to adjust this.
-```
-
-```
 ##   |                                                                         |....................................................             |  81%
 ##   ordinary text without R code
 ## 
@@ -272,12 +258,9 @@ title(main="Weekdays")
 ## 
 ##   |                                                                         |.................................................................| 100%
 ## label: unnamed-chunk-26 (with options) 
-## List of 1
-##  $ echo: logi FALSE
-```
-
-```
-## output file: PA1_template.md
+## List of 2
+##  $ echo   : logi FALSE
+##  $ message: logi FALSE
 ```
 
 ![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13.png) 
