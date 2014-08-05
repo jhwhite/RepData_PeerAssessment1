@@ -119,7 +119,3 @@ title(main="Weekends")
 plot(activity.imputed.weekday.avg$interval, activity.imputed.weekday.avg$steps, type="l")
 title(main="Weekdays")
 ```
-
-```{r message =FALSE, warning=FALSE}
-knit2html("PA1_template.Rmd")
-```
