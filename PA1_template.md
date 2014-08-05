@@ -174,12 +174,6 @@ knit2html("PA1_template.Rmd")
 ```
 
 ```
-## 
-## 
-## processing file: PA1_template.Rmd
-```
-
-```
 ##   |                                                                         |                                                                 |   0%  |                                                                         |..                                                               |   4%
 ##   ordinary text without R code
 ## 
@@ -202,10 +196,6 @@ knit2html("PA1_template.Rmd")
 ## List of 2
 ##  $ message: logi FALSE
 ##  $ warning: logi FALSE
-```
-
-```
-## stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to adjust this.
 ```
 
 ```
@@ -253,10 +243,6 @@ knit2html("PA1_template.Rmd")
 ```
 
 ```
-## stat_bin: binwidth defaulted to range/30. Use 'binwidth = x' to adjust this.
-```
-
-```
 ##   |                                                                         |....................................................             |  81%
 ##   ordinary text without R code
 ## 
@@ -274,11 +260,10 @@ knit2html("PA1_template.Rmd")
 ##   ordinary text without R code
 ## 
 ##   |                                                                         |.................................................................| 100%
-## label: unnamed-chunk-26
-```
-
-```
-## output file: PA1_template.md
+## label: unnamed-chunk-26 (with options) 
+## List of 2
+##  $ message: logi FALSE
+##  $ warning: logi FALSE
 ```
 
 ![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13.png) 
