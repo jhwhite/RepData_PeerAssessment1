@@ -5,11 +5,6 @@ date: "July 19, 2014"
 output: html_document
 ---
 
-
-```r
-setwd("/Users/jwhite/Copy/JHUdatascience/5 Reproducible Research/CourseProject1/RepData_PeerAssessment1")
-```
-
 ## Loading and preprocessing the data
 
 ```r
@@ -44,7 +39,7 @@ steps_hist <- ggplot(steps_taken, aes(x=steps.taken))
 steps_hist + geom_histogram()
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
 
 Calculates mean
 
@@ -72,7 +67,7 @@ avg.daily.activity <- aggregate(.~interval, FUN=mean, data=data)
 plot(avg.daily.activity$interval, avg.daily.activity$steps, type="l")
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
 Get the interval that has the highest amount of steps
 
@@ -127,7 +122,7 @@ steps_imputed <- ggplot(steps_taken_imputed, aes(x=steps.taken.imputed))
 steps_imputed + geom_histogram()
 ```
 
-![plot of chunk unnamed-chunk-10](figure/unnamed-chunk-10.png) 
+![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9.png) 
 
 
 ```r
@@ -166,4 +161,6 @@ plot(activity.imputed.weekday.avg$interval, activity.imputed.weekday.avg$steps, 
 title(main="Weekdays")
 ```
 
-![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12.png) 
+![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11.png) 
+
+knit2html("PA1_template.Rmd")
